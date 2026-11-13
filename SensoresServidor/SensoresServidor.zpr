@@ -1,0 +1,24 @@
+# generado por ZinjaI
+[general]
+project_name=SensoresServidor
+project_version=1.0
+inherits_from=
+[config]
+config_name=Debug
+executable_name=servidor.exe
+compiling_extra=-Wall -std=c++11 -Iinclude
+linking_extra=-lws2_32
+[files]
+src/main.cpp
+src/ServidorSockets.cpp
+src/Sensor.cpp
+src/SensorTemperatura.cpp
+src/SensorPresion.cpp
+src/SensorCaudal.cpp
+include/ExcepcionesSMTI.h
+include/ServidorSockets.h
+include/Sensor.h
+include/SensorTemperatura.h
+include/SensorPresion.h
+include/SensorCaudal.h
+include/ListaGen.h
